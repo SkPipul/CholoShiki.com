@@ -5,6 +5,7 @@ import "swiper/css";
 import { GoPrimitiveDot } from 'react-icons/go';
 import Topics from "./Topics";
 import ResultSection from "./ResultSection";
+import RecentCourses from "./RecentCourses";
 
 const Home = () => {
   return (
@@ -93,8 +94,9 @@ const Home = () => {
         </Swiper>
       </div>
       {/* cards */}
-      <Topics></Topics>
-      <ResultSection></ResultSection>
+      <Topics/>
+      <ResultSection/>
+      <RecentCourses/>
     </section>
   );
 };
