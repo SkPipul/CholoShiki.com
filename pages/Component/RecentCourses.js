@@ -3,13 +3,13 @@ import { GiSecretBook } from "react-icons/gi";
 const RecentCourses = () => {
   return (
     <div className="py-32 bg-[#F9F9F9] px-10">
-      <h2 className="mt-32 text-center text-5xl font-extrabold">
+      <h2 className="lg:mt-32 md:mt-96 mt-64 text-center text-5xl font-extrabold">
         Recent Courses
       </h2>
       <p className="text-center mt-2 text-lg">
         Research shows that hands-on, interactive learning is more effective
       </p>
-      <div className="grid grid-cols-3 gap-5 mt-16">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-16">
         <div className="shadow-lg hover:shadow-green-500 transition-all duration-500 rounded-sm">
           <img
             className="rounded-sm"

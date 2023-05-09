@@ -52,8 +52,8 @@ const ResultSection = () => {
           </div>
         </div>
       </div>
-      <div className="mb-32  bg-[url(https://victorthemes.com/themes/rouen/wp-content/uploads/2020/08/cta-video-bg.png)] absolute lg:left-40 lg:flex items-center justify-between gap-5 lg:w-3/4 w-full rounded-sm">
-        <div className="lg:ml-16 ml-10 text-left md:text-center">
+      <div className="bg-[url(https://victorthemes.com/themes/rouen/wp-content/uploads/2020/08/cta-video-bg.png)] absolute lg:left-40 lg:flex items-center justify-between gap-5 lg:w-3/4 w-full rounded-sm">
+        <div className="lg:ml-16 ml-10 text-left md:text-center md:mt-6">
           <h2 className="text-3xl font-bold text-white">Learn From Anywhere</h2>
           <p className="text-white">
             Your privacy stays yours. We don’t sell your data or
@@ -62,7 +62,7 @@ const ResultSection = () => {
         </div>
         <div>
           <img
-            className="lg:w-[350px] w-full lg:rounded-s-full lg:mt-0 mt-16 opacity-80"
+            className="lg:w-[350px] lg:h-full w-full md:h-[400px] lg:rounded-s-full lg:mt-0 mt-16 opacity-80"
             src="https://victorthemes.com/themes/rouen/wp-content/uploads/2020/08/video-cta-image-1.jpg"
           ></img>
           <a href="https://www.youtube.com/embed/DAc-ENm32VU"><BsPlayCircleFill className="text-6xl absolute lg:top-24 md:top-96 lg:right-32 md:right-80 top-72 right-44 rounded-full text-black bg-white hover:text-[#1039C5] transition-all duration-300 cursor-pointer">

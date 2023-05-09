@@ -2,10 +2,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper";
 import "swiper/css/navigation";
 import "swiper/css";
-import { GoPrimitiveDot } from 'react-icons/go';
+import { GoPrimitiveDot } from "react-icons/go";
 import Topics from "./Topics";
 import ResultSection from "./ResultSection";
 import RecentCourses from "./RecentCourses";
+import Instructors from "./Instructors";
 
 const Home = () => {
   return (
@@ -68,35 +69,41 @@ const Home = () => {
               ></img>
             </div>
           </SwiperSlide>
-          <div className="flex items-center justify-around border-t-2 border-green-600 my-16">
-            <p>   
-              <span className="lg:text-3xl text-2xl font-bold flex items-center">
-              <GoPrimitiveDot className="text-green-600"></GoPrimitiveDot> 2000+ <br />
-              </span>
-              Student using <br />
-              this App & its free
-            </p>
-            <p>
-              <span className="lg:text-3xl text-2xl font-bold flex items-center">
-              <GoPrimitiveDot className="text-green-600"></GoPrimitiveDot> 670+ <br />
-              </span>
-              Courses Available <br />
-              for All Exams
-            </p>
-            <p>
-              <span className="lg:text-3xl text-2xl font-bold flex items-center">
-              <GoPrimitiveDot className="text-green-600"></GoPrimitiveDot> 65% <br />
-              </span>
-              Better Enhanced <br />
-              Programs
-            </p>
-          </div>
+          {/* <ScrollTrigger> */}
+            <div className="flex items-center justify-around border-t-2 border-green-600 my-16">
+              <p className="mt-10">
+                <span className="lg:text-3xl text-2xl font-bold flex items-center">
+                  <GoPrimitiveDot className="text-green-600"></GoPrimitiveDot>2000+{" "}
+                  <br />
+                </span>
+                Student using <br />
+                this App & its free
+              </p>
+              <p className="mt-10">
+                <span className="lg:text-3xl text-2xl font-bold flex items-center">
+                  <GoPrimitiveDot className="text-green-600"></GoPrimitiveDot>
+                  670+ <br />
+                </span>
+                Courses Available <br />
+                for All Exams
+              </p>
+              <p className="mt-10">
+                <span className="lg:text-3xl text-2xl font-bold flex items-center">
+                  <GoPrimitiveDot className="text-green-600"></GoPrimitiveDot>
+                  65% <br />
+                </span>
+                Better Enhanced <br />
+                Programs
+              </p>
+            </div>
+          {/* </ScrollTrigger> */}
         </Swiper>
       </div>
       {/* cards */}
-      <Topics/>
-      <ResultSection/>
-      <RecentCourses/>
+      <Topics />
+      <ResultSection />
+      <RecentCourses />
+      <Instructors />
     </section>
   );
 };
