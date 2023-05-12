@@ -2,14 +2,15 @@ import React from "react";
 
 const Topics = () => {
   return (
-    <div className="mt-32">
+    <div className="mt-32 mb-4">
       <div className="mb-10 text-center">
-        <h1 className="text-4xl font-extrabold">Popular Topics</h1>
+        <h1 className="text-5xl font-extrabold">Popular Topics</h1>
         <p className="text-lg mt-4">
           Keep up with the topics and trends you care about the most
         </p>
       </div>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5 px-10 text-center">
+      <img className="w-[80%] lg:w-[30%] absolute left-[30px] lg:left-[470px] animate-spin-slow" src="https://robokalam.com/assets/backgrounds/rotate-elipse1-min.png"></img>
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5 px-10 pt-28 text-center relative">
         <h2 className="text-3xl bg-green-200 rounded-md font-extrabold shadow-xl p-14 hover:scale-110 transition-all duration-700">
           Designing
         </h2>
