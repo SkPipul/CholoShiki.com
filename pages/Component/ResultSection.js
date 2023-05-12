@@ -53,7 +53,7 @@ const ResultSection = () => {
         </div>
       </div>
       <div className="bg-[url(https://victorthemes.com/themes/rouen/wp-content/uploads/2020/08/cta-video-bg.png)] absolute lg:left-40 lg:flex items-center justify-between gap-5 lg:w-3/4 w-full rounded-sm bg-gray-700">
-        <div className="lg:ml-16 ml-10 text-left md:text-center md:mt-6">
+        <div className="lg:ml-16 ml-10 text-left md:text-center mt-6">
           <h2 className="text-3xl font-bold text-white">Learn From Anywhere</h2>
           <p className="text-white">
             Your privacy stays yours. We don’t sell your data or

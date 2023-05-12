@@ -28,7 +28,7 @@ const Home = () => {
           <SwiperSlide className="md:mx-16 sm:mx-10">
             <div className="grid lg:grid-cols-2 md:grid-cols-1">
               <div className="mt-16">
-                <h2 className="lg:text-5xl md:text-3xl font-extrabold mb-7">
+                <h2 className="lg:text-5xl text-3xl font-extrabold mb-7">
                   Learn Topics That <br />
                   Matters To You
                 </h2>
@@ -42,7 +42,7 @@ const Home = () => {
                 </button>
               </div>
               <img
-                className="w-[90%]"
+                className="w-[90%] mx-auto"
                 src="https://victorthemes.com/themes/rouen/wp-content/uploads/2020/08/banner-image-1.png"
               ></img>
             </div>
@@ -50,7 +50,7 @@ const Home = () => {
           <SwiperSlide className="">
             <div className="grid lg:grid-cols-2 md:grid-cols-1">
               <div className="mt-16">
-                <h2 className="lg:text-5xl md:text-3xl font-extrabold mb-7">
+                <h2 className="lg:text-5xl text-3xl font-extrabold mb-7">
                   Learn Topics That <br />
                   Matters To You
                 </h2>
@@ -64,7 +64,7 @@ const Home = () => {
                 </button>
               </div>
               <img
-                className="w-[60%]"
+                className="w-[60%] mx-auto"
                 src="https://kitpro.site/tutturu/wp-content/uploads/sites/69/2022/02/Elearning10072005-copy-800x786.png"
               ></img>
             </div>
